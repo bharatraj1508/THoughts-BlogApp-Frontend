@@ -1,5 +1,7 @@
 import ApiClient from "./ApiClient";
 
+//API to use in this site
+
 export const loginApi = (email: string, password: string) =>
   ApiClient.post(`/signin`, { email, password });
 
